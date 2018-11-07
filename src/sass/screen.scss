@@ -10,13 +10,15 @@ body {
 }
 
 .wrap {
-    background: #fff;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .hero {
-    background: #23282b;
+    background-color: #23282b;
+    background-image: url('../img/civil.jpg');
+    background-position: center;
+    background-size: cover;
     margin-bottom: -50px;
     clip-path: polygon(0px 100%, 100% 90%, 100% 0, 0 0);
     -webkit-clip-path: polygon(0px 100%, 100% 90%, 100% 0, 0 0);
@@ -24,6 +26,7 @@ body {
     z-index: 10;
     .content {
         padding: 30px;
+        padding-right: 400px;
     }
 }
 
@@ -45,11 +48,17 @@ body {
 }
 
 .apprentice {
-    background: #3079f6;
+    background-color: #3079f6;
+    background-image: url('../img/mechanic.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .employer {
-    background: #f5bb41;
+    background-color: #f5bb41;
+    background-image: url('../img/electronic.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 
