@@ -17,9 +17,9 @@ body {
 
 .hero {
     background: #23282b;
-    min-height: 500px;
-    margin-bottom: -100px;
-    clip-path: polygon(0px 500px, 100% 400px, 100% 0, 0 0);
+    margin-bottom: -50px;
+    clip-path: polygon(0px 100%, 100% 90%, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0px 100%, 100% 90%, 100% 0, 0 0);
     position: relative;
     z-index: 10;
     .content {
@@ -29,18 +29,18 @@ body {
 
 .frontdoor {
     background: white;
-    clip-path: polygon(0px 500px, 100% 600px, 100% 0, 0 0);
+    clip-path: polygon(0px 90%, 100% 100%, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0px 90%, 100% 100%, 100% 0, 0 0);
     position: relative;
     z-index: 9;
-    margin-bottom: -100px;
+    margin-bottom: -50px;
 }
 
 .apprentice, .employer {
-    min-height: 600px;
     display: inline-block;
     width: 50%;
     .content {
-        padding: 80px 30px 30px;
+        padding: 150px 30px 150px;
     }
 }
 
@@ -57,10 +57,11 @@ body {
 .hero2 {
     background: #5e6165;
     min-height: 500px;
-    clip-path: polygon(0px 500px, 100% 400px, 100% 0, 0 0);
+    clip-path: polygon(0px 100%, 100% 90%, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0px 100%, 100% 90%, 100% 0, 0 0);
     position: relative;
     z-index: 8;
     .content {
-        padding: 100px 30px 30px;
+        padding: 80px 30px 30px;
     }
 }
